@@ -27,7 +27,7 @@ def mech_car_owners
 end
 
 def owner_names
-  self.owners.map do |car_owner|
+  self.owners.map do |owner|
     owner.name
   end
 end

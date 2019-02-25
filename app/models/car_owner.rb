@@ -15,7 +15,7 @@ class CarOwner
 
   def cars
    Car.all.select do |car|
-     car.car_owner == self
+     car.owner == self
  end
 end
 
