@@ -25,6 +25,13 @@ end
  end
 end
 
+def self.average_amount
+  total_owners = CarOwner.all.size
+  total_cars = Car.all.size
+  avg = total_cars.to_f/total_owners.to_f
+  avg
+ end
+
 
 
 end
